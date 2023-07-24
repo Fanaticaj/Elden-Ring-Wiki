@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Elden_Ring_Wiki.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Elden_Ring_Wiki"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="WSearch" Content="Search" Margin="688,68,0,0" VerticalAlignment="Top" BorderBrush="Black" CornerRadius="1" Click="WSearch_click"/>
+        <TextBox x:Name="WSearch_text" HorizontalAlignment="Left" Margin="171,68,0,0" TextWrapping="Wrap" PlaceholderText="Enter Weapon Name..." VerticalAlignment="Top" Height="32" Width="489" CornerRadius="1"/>
+        <TextBlock x:Name="WSearch_return" HorizontalAlignment="Left" Margin="171,130,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="479" Width="913"/>
+        <ListView x:Name="listView"/>
+
+    </Grid>
+</Page>
